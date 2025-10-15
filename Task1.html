@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Div Layout</title>
+<style>
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #d3d3d3; /* light grey background */
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 5px;
+  }
+
+  .header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+  }
+
+  .columns {
+    display: flex;
+  }
+
+  .column {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .left {
+    background-color: #f8d7da; /* light pink */
+  }
+
+  .center {
+    background-color: #d4edda; /* light green */
+  }
+
+  .right {
+    background-color: #d6d8f6; /* light purple */
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Introduction</h1>
+  <p>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</p>
+</div>
+
+<div class="columns">
+  <div class="column left">
+    <h2>Left column</h2>
+    <p>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</p>
+  </div>
+
+  <div class="column center">
+    <h2>Center column</h2>
+    <p>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</p>
+  </div>
+
+  <div class="column right">
+    <h2>Right column</h2>
+    <p>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</p>
+  </div>
+</div>
+
+</body>
+</html>
